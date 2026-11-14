@@ -11,6 +11,9 @@
 # COMMAND ----------
 
 # MAGIC %pip install -q openpyxl
+
+# COMMAND ----------
+
 # MAGIC %restart_python
 
 # COMMAND ----------
