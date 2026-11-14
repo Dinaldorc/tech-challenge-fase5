@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Segredos e configuração local — nunca versionar
+.env
+.databrickscfg
+*.pem
+
+# Dados: a base da Passos Mágicos fica no Volume da Databricks, não no Git
+data/*
+!data/.gitkeep
+*.xlsx
+*.csv
+
+# MLflow local / Databricks
+mlruns/
+.databricks/
+
+# IDE
+.vscode/
+.idea/
